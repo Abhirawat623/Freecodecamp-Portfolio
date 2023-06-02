@@ -1,0 +1,154 @@
+
+:root{
+    --violet: rgba(31, 74, 85, 0.527);
+    --transparent: rgba(247, 20, 20, 0.205);
+    --text: rgb(255, 252, 252);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+body{
+    background: var(--violet);
+    text-align: center;
+    
+}
+#navbar{
+    background: var(--transparent);
+    margin:0;
+    width:100%;
+    box-shadow: 0 2px 0 rgb(197, 195, 195);
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 8vh;
+}
+#item-list{
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    list-style: none;
+    margin: 2vh;
+}
+ li a{
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 12vh;
+ }
+ #welcome-section{
+    margin-top: 8vh;
+    background: #e2e0eb;
+    min-height: 50vh;
+    padding-top: 25vh;
+   
+  
+ }
+ #name{
+    font: 5em sans-serif;
+ }
+ span{
+    font: 2rem italic;
+ }
+
+ 
+nav ul li a:hover {
+    color: brown;
+  }
+  
+  #projects{
+    height: 70h;
+    padding: 35vh;
+
+  }
+  
+ .files-header {
+   padding-bottom: 20vh;
+    color: var(--text);
+    font-size: 5rem;
+    
+  }
+  
+  .project {
+    text-decoration: none;
+    height: 250px;
+    width: 350px;
+    margin: 40px 100px;
+    color: #800000;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid brown;
+    border-radius: 15px;
+  }
+
+  .project:hover{
+    opacity: 0.5;
+    height:300px;
+    width:400px;
+    border: 1vh solid brown;
+  }
+  
+  .project-pic {
+    width: 100%;
+    height: 180px;
+    
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  
+  .contact {
+    background: var(--transparent);
+    padding-bottom: 5vh;
+  }
+  
+  .header {
+    padding-top:10vh;
+    margin-top: 25vh;
+    min-height: 15vh;
+    width: 100%;
+  }
+  
+  .site-links {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh;
+    background: #e2e0eb;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .site-links:hover {
+    background: black;
+    color:white ;
+    padding: 5vh;
+  }
+  
+  footer {
+    padding: 20px;
+    background: var(--violet);
+    color: white;
+   
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    
+    .site-links {
+      width: 100px;
+      height:25px;
+      
+    }
+  }
